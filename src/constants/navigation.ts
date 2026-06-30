@@ -1,0 +1,33 @@
+import {
+  LayoutDashboard,
+  BookOpen,
+  CircleAlert,
+  ChartColumn,
+  Users,
+  Trophy,
+  Lightbulb,
+  Rocket,
+  Gem,
+  ShieldCheck,
+  Megaphone,
+  TriangleAlert,
+  Map,
+  CheckCircle2,
+} from "lucide-react";
+
+export const navigation = [
+  { title: "Dashboard", path: "/dashboard", icon: LayoutDashboard },
+  { title: "Overview", path: "/overview", icon: BookOpen },
+  { title: "Problem", path: "/problem", icon: CircleAlert },
+  { title: "Market", path: "/market", icon: ChartColumn },
+  { title: "Users", path: "/users", icon: Users },
+  { title: "Competitors", path: "/competitors", icon: Trophy },
+  { title: "Vision", path: "/vision", icon: Lightbulb },
+  { title: "MVP", path: "/mvp", icon: Rocket },
+  { title: "Premium", path: "/premium", icon: Gem },
+  { title: "Moat", path: "/moat", icon: ShieldCheck },
+  { title: "GTM", path: "/gtm", icon: Megaphone },
+  { title: "Risk", path: "/risk", icon: TriangleAlert },
+  { title: "Roadmap", path: "/roadmap", icon: Map },
+  { title: "Decision", path: "/decision", icon: CheckCircle2 },
+];
